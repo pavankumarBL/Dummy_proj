@@ -1,0 +1,5 @@
+# Use the official Nginx image from the Docker Hub
+FROM nginx:latest
+
+# Copy the content of the current directory to /usr/share/nginx/html inside the container
+COPY . /usr/share/nginx/html
